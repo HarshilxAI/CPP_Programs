@@ -1,0 +1,12 @@
+#include<iostream.h>
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+char a[]="welcome to c++";
+clrscr();
+cout<<"valoe 0f a="<<a<<endl;
+
+getch();
+}

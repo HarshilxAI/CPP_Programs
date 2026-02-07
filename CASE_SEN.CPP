@@ -1,0 +1,18 @@
+#include<iostream.h>
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+int a,A;
+clrscr();
+cout<<"enter a=";
+cin>>a;
+cout<<"enter A=";
+cin>>A;
+ cout<<endl;
+cout<<"a is="<<a<<endl;
+cout<<"A is="<<A<<endl;
+
+getch();
+}

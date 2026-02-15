@@ -1,0 +1,34 @@
+#include<iostream.h>
+#include<stdio.h>
+#include<conio.h>
+class employee
+{
+	int id;
+	char name[20];
+	float sal;
+
+	public:
+		void getdata()
+		{
+			cout<<"enter id";
+			cin>>id;
+			cin>>name;
+			cin>>sal;
+		}
+		void putdata()
+		{
+		cout<<"id="<<id<<endl;
+		cout<<"name="<<name<<endl;
+		cout<<"sal="<<sal<<endl;
+		}
+};
+
+
+void main()
+{
+	employee e1;
+	clrscr();
+	e1.getdata();
+	e1.putdata();
+	getch();
+}

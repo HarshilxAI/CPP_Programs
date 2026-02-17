@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+#include<iostream.h>
+
+class testing
+{
+	private:
+		int n;
+	public:
+	       testing()
+	       {
+	       n=8;
+	       }
+	       void operator ==()
+	       {
+		if(n==5)
+		{
+			cout<<"equal";
+	       }
+	       else
+	       {
+		cout<<"not equl";
+		}
+
+	       }
+
+
+};
+
+void main()
+{
+	testing t1;
+	clrscr();
+       ==t1;
+getch();
+}

@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+#include<iostream.h>
+#include<fstream.h>
+void main()
+{
+	ofstream filestream("G:\\t1.txt");
+
+	filestream<<"welcome to iiht"<<endl;
+	filestream<<"hello how r u";
+	filestream.close();
+	getch();
+}

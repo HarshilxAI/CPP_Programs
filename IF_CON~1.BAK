@@ -1,0 +1,13 @@
+#include <iostream.h>
+#include<conio.h>
+
+int main ()
+ {
+	clrscr();
+	int num = 10;
+		if (num % 2 == 0)
+		{
+		 cout<<"It is even number";
+		}
+		return 0;
+		}

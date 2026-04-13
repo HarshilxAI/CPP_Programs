@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+#include<iostream.h>
+class member
+{
+	private:
+	  static int a=20;
+	  static int b=10;
+	public:
+	   static void disp()
+	   {
+	   cout<<"a="<<a<<endl;
+	   cout<<"b="<<b<<endl;
+	   }
+};
+//int  member::a=20;
+//int member::b=10;
+
+void main()
+{
+member mb;
+clrscr();
+cout<<"using object"<<endl;
+mb.disp();
+cout<<"using class"<<endl;
+member::disp();
+getch();
+}

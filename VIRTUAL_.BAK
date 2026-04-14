@@ -1,0 +1,51 @@
+/*
+-it must be member function of class
+-it access by objet pointer
+-it it same as like friend function
+-virtual constructor & destructor not possible
+*/
+#include<stdio.h>
+#include<conio.h>
+#include<iostream.h>
+
+class shape
+{
+	public:
+		virtual void draw()
+		{
+		cout<<"drawing  shape"<<endl;
+		}
+};
+class rect:public shape
+{
+	public:
+		void draw()
+		{
+		cout<<"draw rectangle"<<endl;
+		}
+ };
+ class circle:public shape
+{
+	public:
+		void draw()
+		{
+		cout<<"draw circle..."<<endl;
+		}
+ };
+
+
+void main()
+{
+	shape *s;
+	shape sh;
+	rect r;
+	circle c;
+	clrscr();
+	s=&sh;
+	s->draw();
+	s=&r;
+	s->draw();
+	s=&c;
+	s->draw();
+	getch();
+}
